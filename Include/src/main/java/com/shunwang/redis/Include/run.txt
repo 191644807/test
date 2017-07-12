@@ -1,0 +1,6 @@
+java -jar import-0.0.1-SNAPSHOT-jar-with-dependencies
+.jar 192.168.28.194 6379 0 E:\hot.txt
+
+redis 导入命令cat wordlist.raw | redis-cli -h localhost -p 6379
+			type D:\hott.raw | redis-cli -h 192.168.28.194 -p 6379 --pipe
+redis 导出命令echo HGETALL xxx | redis-cli -h localhost -p 6379 > D:\a.txt
